@@ -26,6 +26,7 @@
 
 </div>
 
+// salva um novo curso em uma coleção do MongoDB
 <?php
 if (isset($_POST['salvar'])) {
     $colecaoCursos->insertOne([
